@@ -293,8 +293,14 @@ pcr_regional_spec_sel_norm_mean <- pcr_regional_spec_sel |>
   ungroup() |>
   group_by(gene) |>
   mutate(mean = 100*(mean/max(mean)), sem = 15 * sem) |> 
-  mutate(region = factor(region, 
-                         levels = c("dFB", "vFB", "dMB", "rVM", "cVM", "dHB", 
+  mutate(region = factor(region,
+                         levels = c("dFB", "vFB", "dMB", "rVM", "cVM", "dHB",
                                     "vHB")))
+```
+
+# Session info
+R and package versions used for the analysis (recorded in session_info.txt)
+```{r}
+sessionInfo()
 ```
 

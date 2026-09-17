@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "APCDD1 cell surface marker benchmarking"
+type: software
+authors:
+  - given-names: Alrik L.
+    family-names: Schörling
+repository-code: "https://github.com/kirkebylab/Benchmarking"
+license: MIT
+preferred-citation:
+  type: article
+  title: "APCDD1 shows high specificity for ventral midbrain dopaminergic progenitors in a cell surface marker benchmarking study"
+  journal: "npj Parkinson's Disease"
+  year: 2026
+  doi: 10.1038/s41531-026-01467-9
+  authors:
+    - given-names: Alrik L.
+      family-names: Schörling
+    - given-names: Alison
+      family-names: Salvador
+    - given-names: Pedro
+      family-names: Rifes
+    - given-names: Erno
+      family-names: Hänninen
+    - given-names: Amalie
+      family-names: Holm Nygaard
+    - given-names: Gaurav
+      family-names: Singh Rathore
+    - given-names: Jenny
+      family-names: Nelander
+    - given-names: Josefine
+      family-names: Rågård Christiansen
+    - given-names: Simone
+      family-names: Møller Jensen
+    - given-names: Jonathan Christos
+      family-names: Niclis
+    - given-names: Emma
+      family-names: Gustafsson
+    - given-names: Patrick
+      family-names: Aldrin-Kirk
+    - given-names: Yu
+      family-names: Zhang
+    - given-names: Malin
+      family-names: Parmar
+    - given-names: Agnete
+      family-names: Kirkeby
