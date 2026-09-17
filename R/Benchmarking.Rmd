@@ -1,0 +1,300 @@
+---
+title: "Benchmarking study"
+author: "Alrik Schörling"
+date: "9/9/2021"
+output: 
+  pdf_document: 
+    toc: yes
+    fig_width: 4
+    fig_height: 4
+    fig_caption: yes
+editor_options: 
+  markdown: 
+    wrap: 72
+  chunk_output_type: inline
+---
+
+# 1. Setup
+Set dir
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+#paths are relative to this R directory (knitr's default root.dir), e.g. data/qrt pcr.csv
+```
+
+Check dir
+```{r}
+getwd()
+```
+
+Install packages
+```{r}
+#if not done, uncomment to install all necessary packages
+#install.packages('tidyverse')
+#install.packages('lubridate')
+#install.packages('broom')
+#install.packages('ggplot2')
+#install.packages('extrafont')
+#install.packages('ggridges')
+#install.packages('FactoMineR')
+#install.packages('factoextra')
+#install.packages('clValid')
+#install.packages('ComplexHeatmap')
+#install.packages('circlize')
+#install.packages('rstatix')
+#install.packages('corrr')
+#install.packages('ggprism')
+#install.packages('onewaytests')
+#install.packages('yarrr')
+#install.packages('scales')
+#install.packages('wesanderson')
+#install.packages('viridis')
+#install.packages('scico')
+#install.packages('BBmisc')
+#install.packages('rmarkdown')
+#install.packages('pacman')
+#install.packages('ggbreak')
+#install.packages('effectsize')
+#install.packages('coin')
+#install.packages('ggcorrplot')
+#install.packages('plotly')
+#install.packages('tibble')
+#install.packages('effectsize')
+#install.packages('lme4')
+#install.packages('nlme')
+#install.packages('ggbreak')
+#install.packages('cowplot')
+
+#ochre
+#install.packages("devtools")
+#devtools::install_github("ropenscilabs/ochRe")
+
+#complex heatmap
+#if (!require("BiocManager", quietly = TRUE))
+  #install.packages("BiocManager")
+
+#BiocManager::install("ComplexHeatmap")
+```
+
+Load packages
+```{r}
+pacman::p_load(tidyverse, lubridate, broom, #cleaning
+               ggplot2, extrafont, ggridges, ggbreak, cowplot, #plotting
+               FactoMineR, factoextra, clValid, #multivariate analysis
+               ComplexHeatmap, circlize, #heatmaps
+               corrr, rstatix, ggprism, onewaytests, effectsize, lme4, nlme, #statistics
+               ochRe, yarrr, scales, wesanderson, viridis, scico) #colors
+```
+
+Set themes
+```{r}
+basic_theme <-  theme_bw(base_family = "Helvetica") + 
+  theme(panel.border = element_blank(),
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        
+        axis.ticks = element_line(linewidth = 0.3),
+        axis.ticks.length = unit(.1, "cm"), 
+        
+        axis.text.x = element_text(color = "black", size = 6),
+        axis.text.y = element_text(color = "black", size = 6),
+        
+        axis.title = element_text(size = 6), 
+        
+        legend.title = element_text(size = 6), 
+        legend.text = element_text(size = 6),
+        
+        strip.text.x = element_text(size = 6),
+        strip.text.y = element_text(size = 6), 
+        
+        strip.background = element_rect(color = NA, fill = NA), 
+        plot.title = element_text(color = "black", size = 7))
+
+theme_1 <- basic_theme + theme(axis.line = element_line(linewidth = 0.3))
+
+theme_2 <- basic_theme + 
+  theme(axis.line = element_line(linewidth = 0.3), 
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+
+theme_3 <- basic_theme + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 0.5, vjust = 1), 
+        panel.border = element_rect(linewidth = 0.3, fill = NA))
+
+theme_4 <- basic_theme + 
+  theme(panel.border = element_rect(linewidth = 0.3, fill = NA))
+
+theme_5 <- basic_theme + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1), 
+        panel.border = element_rect(linewidth = 0.3, fill = NA))
+
+theme_6 <- theme_2 + 
+  theme(strip.text.x = element_text(face = 'italic'))
+```
+
+Palettes
+```{r}
+reef_pal <- ochre_pal(palette = 'healthy_reef')(7)
+basel_pal <- unname(piratepal('basel', length.out = 5))
+
+dissoc_pal <- c('#3C358F', '#58BF88', '#FF7769')
+flower_pal <- c("#9ca77f", "#4e611f", "#a68750", "#f2cafe", "#a780db")
+fruit_punch_pal <- c('#859DD6', '#4D8085', '#5CAB3F', '#FA894C', '#B55E85', '#DBF4B0')
+
+fraction_pal <- c("#0D434F", "#6A5470", "#FFE0C4", "#D5A511", "#AB2A84","#7CB4BF", "#7180C8","#F2C53D", "gray")
+```
+
+
+#2. qRT-PCR quality control
+##2.1 Data pt. 1
+```{r}
+pcr_regional_spec <- read.csv("data/qrt pcr.csv")
+pcr_regional_spec
+```
+
+Investigate normality 
+```{r}
+#log10 normalize
+pcr_regional_spec_log10 <- pcr_regional_spec |>
+  mutate(expr_lvl_log10 = log(expr_lvl)) |>
+  arrange(expr_lvl_log10) |>
+  filter_all(all_vars(!is.infinite(.))) 
+
+#plot frequency distribution
+ggplot(pcr_regional_spec_log10, aes(x = expr_lvl_log10)) + 
+  geom_histogram(aes(y =..density..), fill = "lightgray", col = "black") +
+  geom_density(col=2, linewidth = 2) + 
+  xlab("") + 
+  theme_1
+
+#shapiro-wilk test
+pcr_regional_spec_log10 |> ungroup() |> shapiro_test(expr_lvl_log10)
+
+#The data is non-normal according to Shapiro-Wilk test but the distribution looks okay. Proceed to plot a heatmap of the expression levels
+```
+
+Selecting markers of interest and normalize
+```{r}
+#define marker of interest
+surface_markers <- c("ALCAM", "APCDD1", "IAP", "CNTN2", "CORIN", 
+                     "FOLR1", "TPBG", "LRTM1")
+regional_markers <- c("FOXG1", "NKX2.1", #forebrain
+                      "PAX6", #dorsal
+                      "EN1", "LMX1A", "FOXA2", "OTX2", #midbrain
+                      "HOXA2") #hindbrain
+
+#subset the dataset
+pcr_regional_spec_sel <- pcr_regional_spec |> 
+  filter(gene %in% surface_markers | gene %in% regional_markers) |> 
+  mutate(gene = factor(gene, 
+                       levels = c("APCDD1", "TPBG", "ALCAM", "CORIN", #surface_markers
+                                  "IAP", "LRTM1", "CNTN2", "FOLR1", #surface_markers
+                                  "FOXG1", "NKX2.1", #forebrain
+                                  "EN1", "LMX1A", "FOXA2", "OTX2", #midbrain
+                                  "PAX6", #dorsal
+                                  "HOXA2"))) |> #hindbrain
+  ungroup() 
+
+#summarize the and normalize the dataset
+pcr_regional_spec_sel_norm  <- pcr_regional_spec_sel |>
+  ungroup() |>
+  group_by(gene, region) |>
+  summarise(mean_expr_lvl = mean(expr_lvl)) |> 
+  ungroup() |> 
+  group_by(gene) |> 
+  mutate(norm_mean_expr_lvl = BBmisc::normalize(mean_expr_lvl, 
+                                                   method = "range")) |> 
+  mutate(region = factor(region, 
+                         levels = c("dFB", "vFB", "dMB", "dHB", 
+                                    "vHB", "rVM", "cVM")))
+```
+
+Plot heatmap of regional enrichment
+```{r}
+plt <- ggplot(pcr_regional_spec_sel_norm, aes(x = region, y = gene, 
+                                      fill = norm_mean_expr_lvl)) + 
+  geom_tile() +
+  scale_fill_scico(palette = "bilbao", direction = -1,
+                   name = "Norm. mRNA \n expr. level") + 
+  labs(y = "", x = "hESC regional differentiation", title = "Normalized mRNA expression levels") +
+  theme_5 + 
+  theme(axis.text.y = element_text(face = "italic"),
+        legend.key.height=unit(2, "mm"),
+        legend.key.width=unit(3, "mm"))
+
+plt
+#ggsave("figs/qrt pcr regional spec hmap.pdf", plt, width = 3, height = 2.5, bg = "transparent")
+```
+
+Correlating  markers
+```{r}
+pcr_tbl_vals <- pcr_regional_spec_sel |> 
+  pivot_wider(values_from = expr_lvl, names_from = gene) |>
+  mutate(region_unique_batch_id_cell_line = paste(region, unique_batch_id, cell_line, 
+                                                  sep = "_")) |> 
+  relocate(region_unique_batch_id_cell_line) |> 
+  select(!c(region, unique_batch_id, cell_line))
+
+pcr_tbl_vals <- column_to_rownames(pcr_tbl_vals, "region_unique_batch_id_cell_line")
+pcr_tbl_vals_cor <- (cor(pcr_tbl_vals, method = "pearson"))^2
+```
+
+Visualize correlation between markers 
+```{r}
+#define a color gradient using colorRamp2
+sunset_pal <- colorRamp2(breaks = c(0, 1), colors = c('#6BA6DB', '#FFB03B'))
+sweden_pal <- colorRamp2(breaks = c(0, 1), colors = c('#006AA7', '#FECC02'))
+
+
+hmap <- Heatmap(
+                #basics
+                pcr_tbl_vals_cor, #data
+                col = sweden_pal, #colors
+                column_title = "Correlation of genes' normalized mRNA expression levels", #column title
+                name = "r-squared", #key name
+                show_row_dend = F, #logic if remove row dendrogram
+                
+                #clustering method
+                clustering_method_columns = "ward.D2", #clustering cols
+                clustering_method_rows = "ward.D2", #clustering rows
+                clustering_distance_columns = "pearson", #distance metric
+                clustering_distance_rows = "pearson", #distance metric
+                column_km = 4, row_km = 3, #no. of clusters
+                
+                #aesthetics
+                row_names_gp = gpar(fontface = "italic", fontsize = 7), 
+                row_title_gp = gpar(fontsize = 0), 
+                
+                column_names_gp = gpar(fontface = "italic", fontsize = 7), 
+                column_title_gp = gpar(fontsize = 7), 
+                border = TRUE,
+                
+                heatmap_legend_param = list(
+                  title_gp = gpar(fontface = 'plain', fontsize = 7),
+                  labels_gp = gpar(fontface = 'plain', fontsize = 7)))
+
+#pdf(file = "figs/qrt pcr corr heatmap.pdf", width = 4, height = 2.5) 
+plt <- draw(hmap)
+plt
+dev.off()
+```
+
+Fold change normalized to mean
+```{r}
+#write function to calculation the sem
+sem <- function(x) sd(x)/sqrt(length(x)) #calculate SEM
+
+#normalize data to mean
+pcr_regional_spec_sel_norm_mean <- pcr_regional_spec_sel |>
+  group_by(gene) |>
+  mutate(norm_expr_lvl = expr_lvl/mean(expr_lvl)) |>
+  select(-expr_lvl) |>
+  ungroup() |>
+  group_by(gene, region) |>
+  summarise(mean = mean(norm_expr_lvl), sem = sem(norm_expr_lvl)) |>
+  ungroup() |>
+  group_by(gene) |>
+  mutate(mean = 100*(mean/max(mean)), sem = 15 * sem) |> 
+  mutate(region = factor(region, 
+                         levels = c("dFB", "vFB", "dMB", "rVM", "cVM", "dHB", 
+                                    "vHB")))
+```
+

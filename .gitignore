@@ -1,0 +1,16 @@
+# Conda/Python
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# R/RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Generated per-sample FACS plots (recreated by the notebooks)
+facs_plots/
+
+# OS
+.DS_Store

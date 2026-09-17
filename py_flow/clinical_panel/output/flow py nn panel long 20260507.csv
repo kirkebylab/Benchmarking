@@ -1,0 +1,256 @@
+filename,folder,gate,value
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2,51.20707345041946
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2,36.69637260512905
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2,83.38341258496456
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2,83.47186700767263
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2,87.44195100247491
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2,84.83068794620439
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2,83.28997461928934
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2,76.2627819022272
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_foxa2,84.81012658227847
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2,11.112315698178664
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_foxa2,33.526524644945695
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2,9.927708183875064
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_foxa2,16.14408929477423
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_foxa2,26.799074955788328
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_foxa2,62.35072976559045
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_foxa2,21.95294355245885
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_foxa2,0.3932390479475681
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2,70.85822922324823
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2,59.99509443218053
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2,92.69523615041278
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2,95.83817716810044
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2,92.9479157976697
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2,92.85636312031964
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2,97.26840101522842
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2,94.96848298080964
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_otx2,0.0615805679096818
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_otx2,76.66594391442614
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_otx2,74.93734335839599
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_otx2,78.04756911870206
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_otx2,27.292406561812953
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_otx2,76.76506597741803
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_otx2,92.30429013710749
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_otx2,1.6459658689286074
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_otx2,0.0551914453259744
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1,72.33085883275997
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1,40.996920393535554
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1,98.47720178534964
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1,92.5395256916996
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1,96.07074330524736
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1,80.51874331375673
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1,93.08058375634518
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1,86.42106737638325
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_apcdd1,0.5131713992473486
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,64.72969066204105
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,87.33291562238931
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,63.24706142045141
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,35.958058515136145
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,71.4902734321861
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_apcdd1,91.29809818664307
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_apcdd1,26.396041603554476
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_apcdd1,2.6181441876509144
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_double_foxa2_otx2,50.72424407025168
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_double_foxa2_otx2,35.80246913580247
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_double_foxa2_otx2,83.20254383150034
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_double_foxa2_otx2,83.19286212508719
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_double_foxa2_otx2,87.06932510219404
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_double_foxa2_otx2,84.153876383643
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_double_foxa2_otx2,83.0996192893401
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_double_foxa2_otx2,75.92099733856283
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_double_foxa2_otx2,0.0376325692781389
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,8.52124891587164
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,31.756474519632416
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,7.466475360079467
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,10.969051243023848
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,23.683852537069782
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,59.60858027421495
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,1.6156720185802282
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_double_foxa2_otx2,0.0103483959986202
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,51.50402603362677
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,32.207671342152494
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,84.34102556506798
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,88.10024810778556
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,88.97186523098298
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,87.51084598698482
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,87.86257200313575
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,82.73145746887967
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_pos,0.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,11.344350156319786
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,31.40619394953964
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,10.45284006631184
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,27.899539083811497
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,31.07368821654536
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,64.36962577207218
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,5.279265493496557
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_pos,0.3952569169960474
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,48.68578907187261
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,38.300230946882216
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,9.578544061302685
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,22.321776392676277
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,40.552016985138
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,70.27905412977698
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,19.02796882164145
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,32.57685166082113
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_foxa2_otx2_in_apcdd1_neg,0.0378266850068775
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,3.3401639344262297
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,34.171475680131906
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,2.3273273273273274
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,1.4629766557515582
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,5.153286412978647
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,9.6569250317662
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,0.3018246673069008
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_foxa2_otx2_in_apcdd1_neg,0.0
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,73.44279850080314
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,36.880566339346885
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,99.82469057887172
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,97.99825327510916
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,98.16997221423782
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,83.73070437151382
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,98.41560722330394
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,94.17343173431736
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_pos,0.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,86.17472434266328
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,86.36961525813877
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,88.5439763488544
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,91.45852605612087
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,93.79666858127511
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,98.59024299758858
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,86.25
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_pos,100.0
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,26.557201499196857
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,63.119433660653115
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,0.1753094211282914
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,2.00174672489083
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,1.830027785762192
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,16.269295628486187
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,1.5843927766960637
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,5.826568265682657
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_apcdd1_in_foxas_otx2_neg,100.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,13.825275657336723
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,13.63038474186123
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,11.456023651145603
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,8.541473943879124
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,6.203331418724871
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,1.4097570024114263
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,13.750000000000002
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_apcdd1_in_foxas_otx2_neg,0.0
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,51.741833201218235
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,32.80595625872499
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,84.51580412951388
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,88.31380923965956
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,89.20342711589673
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,87.67353579175705
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,87.99550086915028
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,82.92595954356847
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1,82.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,13.086199196069671
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,31.56761927537965
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,12.08446034377454
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,38.350108174207506
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,33.95176252319109
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,66.50115053893666
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,64.19280795715379
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1,7.7733860342556
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,69.8861028828904
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,57.80097055108688
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,92.72447196137098
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,96.143337206746
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,93.15734630079888
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,93.00162689804772
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,97.85268754899622
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,95.41623443983404
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_otx2_in_apcdd1,0.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,78.61210361768647
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,75.16441468372594
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,80.64741296570979
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,61.91327250493839
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,84.76761333904192
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,94.9618505510476
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,5.3940321346595255
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1,0.6587615283267457
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,49.809139491765734
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,39.39953810623557
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,10.153256704980842
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,23.41254382547721
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,44.37367303609342
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,73.08080242071053
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,19.990829894543783
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,33.85599339797813
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_foxa2_in_apcdd1_neg,84.82462173314993
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,7.489754098360655
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,47.03215169002473
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,6.216216216216217
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,3.675926903982254
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,8.863175474173923
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,18.80559085133418
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,6.804774317464672
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_foxa2_in_apcdd1_neg,0.1948212957387269
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,73.39949830952122
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,61.519630484988454
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,90.80459770114942
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,92.05298013245032
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,87.8273177636235
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,92.25596772385968
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,89.40852819807428
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,92.11883639364557
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_otx2_in_apcdd1_neg,0.061898211829436
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,73.09426229508198
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,73.37180544105524
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,73.57357357357357
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,7.853596704341396
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,56.69807944649886
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,64.42185514612451
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,0.3018246673069008
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_otx2_in_apcdd1_neg,0.0389642591477453
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_triple,37.25330436357052
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_triple,13.20415338075382
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_triple,83.05668193354532
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_triple,81.52755173215532
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_triple,85.47593225994828
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_triple,70.46263345195729
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_triple,81.78299492385787
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_triple,71.49740860064435
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_triple,0.0
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_triple,7.343162763804568
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_triple,27.42794486215539
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_triple,6.611114176921803
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_triple,10.032132589210214
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_triple,22.21466467147327
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_triple,58.76824413976117
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_triple,1.393517116025447
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_triple,0.0103483959986202
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,mfi_apcdd1,71.9304142309902
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,mfi_apcdd1,74.65284792487677
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,mfi_apcdd1,65.52191882767701
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,mfi_apcdd1,57.06336789242898
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,mfi_apcdd1,65.89974588735792
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,mfi_apcdd1,63.97756916313274
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,mfi_apcdd1,61.83557030830005
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,mfi_apcdd1,59.405437290926926
+Controls_dFB fully stained.fcs,210609 clinical FACS,mfi_apcdd1,30.421497132283175
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,207.03190932471577
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,203.2955023892307
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,208.39168985901037
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,153.57211734239797
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,227.54646578329863
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,mfi_apcdd1,215.90042773501975
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,mfi_apcdd1,138.4114120456898
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,mfi_apcdd1,69.86736266504137
+AR24_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_live_gate_events,93.02416977795245
+AR24_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_live_gate_events,95.40313564389902
+AR25_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_live_gate_events,90.6444191765608
+AR25_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_live_gate_events,29.863130212898913
+AR26_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_live_gate_events,28.83454275748707
+AR26_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_live_gate_events,22.147595837685195
+CR33_CNUR_cVM + FGF17.fcs,210609 clinical FACS,pct_live_gate_events,39.19325557683221
+CR33_CNUR_cVM + FGF8.fcs,210609 clinical FACS,pct_live_gate_events,30.40252793676751
+Controls_dFB fully stained.fcs,210609 clinical FACS,pct_live_gate_events,63.804243429669086
+Alison B1_rVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,83.68970210192046
+Alison B2_cVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,83.51648351648352
+Alison B2_rVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,82.94502677713187
+Batch for Tx_H9 cVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,87.23812334021835
+Batch for Tx_H9 rVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,85.83856371332652
+Batch for Tx_LatVM.fcs,211021 clinical FACS follow-up,pct_live_gate_events,91.55699534318687
+Batch for Tx_dMB+FGF8.fcs,211021 clinical FACS follow-up,pct_live_gate_events,90.04364429896344
+Controls_dHB fully stained.fcs,211021 clinical FACS follow-up,pct_live_gate_events,90.01987330766364

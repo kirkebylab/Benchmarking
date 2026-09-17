@@ -1,0 +1,31 @@
+folder,filename,num_events,num_true_pos,num_false_neg,num_false_pos,num_true_neg
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR24_CNUR_cVM + FGF17.fcs,40646,12345,4464,11624,4705
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR24_CNUR_cVM + FGF8.fcs,43300,4845,8292,10198,13358
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR25_CNUR_cVM + FGF17.fcs,41780,28471,50,5286,472
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR25_CNUR_cVM + FGF8.fcs,125576,28052,573,3789,1994
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR26_CNUR_cVM + FGF17.fcs,143203,30738,573,3810,840
+210609 clinical FACS,fcs_files/210609 clinical FACS/AR26_CNUR_cVM + FGF8.fcs,238110,32274,6271,4606,2652
+210609 clinical FACS,fcs_files/210609 clinical FACS/CR33_CNUR_cVM + FGF17.fcs,87760,25778,415,3561,1766
+210609 clinical FACS,fcs_files/210609 clinical FACS/CR33_CNUR_cVM + FGF8.fcs,128386,25521,1579,5327,3268
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_FMO APCDD1.fcs,55703,5,33396,0,7628
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_FMO APCDD1_001.fcs,14438,3,8688,0,2064
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_FMO FOXA2.fcs,42100,0,0,14597,19552
+210609 clinical FACS,"fcs_files/210609 clinical FACS/Controls_FMO L,2f,D.fcs",38092,4401,7471,9568,12268
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_FMO OTX2.fcs,115067,18,13,16492,27109
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_Fully unstained.fcs,37965,0,0,6,33648
+210609 clinical FACS,"fcs_files/210609 clinical FACS/Controls_Unstain + L,2f,D.fcs",42057,0,0,3,33684
+210609 clinical FACS,fcs_files/210609 clinical FACS/Controls_dFB fully stained.fcs,57947,0,11,150,29069
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Alison B1_rVM.fcs,34852,2032,326,15880,9434
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Alison B2_cVM.fcs,24164,5253,829,11473,1597
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Alison B2_rVM.fcs,22992,1198,155,10263,6505
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Batch for Tx_H9 cVM.fcs,35784,2966,277,7665,18657
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Batch for Tx_H9 rVM.fcs,36773,6532,432,14489,7951
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Batch for Tx_LatVM.fcs,10737,5315,76,2942,711
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Batch for Tx_dMB+FGF8.fcs,11540,138,22,2476,7267
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Controls_FMO APCDD1.fcs,39824,0,12014,0,17616
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Controls_FMO FOXA2.fcs,27774,0,0,16934,2634
+211021 clinical FACS follow-up,"fcs_files/211021 clinical FACS follow-up/Controls_FMO L,2f,D.fcs",9402,2814,411,5073,648
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Controls_FMO OTX2.fcs,41160,4,0,25423,3811
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Controls_Fully unstained.fcs,17418,0,0,1,16410
+211021 clinical FACS follow-up,"fcs_files/211021 clinical FACS follow-up/Controls_Unstain + L,2f,D.fcs",25578,0,0,0,20152
+211021 clinical FACS follow-up,fcs_files/211021 clinical FACS follow-up/Controls_dHB fully stained.fcs,34548,3,0,756,28231
