@@ -36,10 +36,10 @@ The R analysis uses the packages loaded at the top of `R/Benchmarking.Rmd` (inst
 
 ```
 Benchmarking/
-├── py_flow/            # Python flow cytometry analyses (Jupyter notebooks + raw .fcs files)
-├── R/                  # R Markdown for statistical analysis and figures (qRT-PCR)
-├── CITATION.cff        # Citation metadata (used by GitHub's "Cite this repository")
-├── color_palettes/     # Scientific colour maps (batlow, bilbao, devon, oslo, tokyo) used in the plots
+├── py_flow/            # Python flow cytometry analyses (notebooks + .fcs files)
+├── R/                  # Example R Markdown (qRT-PCR analysis)
+├── CITATION.cff        # Citation metadata
+├── color_palettes/     # Scientific colour maps used for plots
 └── py_flow_env.yml     # conda environment for the Python analyses
 ```
 
@@ -60,7 +60,7 @@ Notebooks use paths relative to their own directory, so start Jupyter from (or s
 
 ### R
 
-`R/Benchmarking.Rmd` contains the statistical analysis and figure generation for the qRT-PCR data in `R/data/`. Open `R/Benchmarking.Rproj` (or knit the `.Rmd`) so that paths resolve relative to the `R` directory. `R/session_info.txt` lists the R and package versions the code was last run with. The full R code and data are available upon request.
+`R/Benchmarking.Rmd` is an example of the R analysis, covering the qRT-PCR data in `R/data/`. Open `R/Benchmarking.Rproj` (or knit the `.Rmd`) so that paths resolve relative to the `R` directory. `R/session_info.txt` lists the R and package versions the code was last run with. The full R code and data used for the statistical analyses and figures in the paper are available upon request.
 
 ## Citation
 
