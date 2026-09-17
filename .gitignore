@@ -12,5 +12,10 @@ __pycache__/
 # Generated per-sample FACS plots (recreated by the notebooks)
 facs_plots/
 
+# Generated output files (recreated by running the code); keep the folders
+**/output/**
+!**/output/**/
+!**/output/**/.gitkeep
+
 # OS
 .DS_Store
